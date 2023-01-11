@@ -1,3 +1,3 @@
-# First template with only HTML and CSS
+# Second template with only HTML and CSS
 
-## [Live Demo](https://aouadyoucef.github.io/HTML-CSS-Template-One/).
+## [Live Demo](https://aouadyoucef.github.io/HTML-CSS-Template-Two/).

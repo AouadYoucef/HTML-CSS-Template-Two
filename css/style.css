@@ -944,7 +944,7 @@ header nav .form i {
     content: "\f10d";
     font-weight: 900;
     color: var(--main-color);
-    font-size: 14px; 
+    font-size: 14px;
     margin-right: 13px;
 }
 
@@ -957,5 +957,13 @@ header nav .form i {
     margin-left: 5px;
 }
 
-
 /* End Quote */
+
+
+/* Start Pricing */
+.pricing {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+
+/* End Pricing */

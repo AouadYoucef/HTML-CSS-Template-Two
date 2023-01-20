@@ -1006,9 +1006,67 @@ header nav .form i {
 
 .pricing .plans .plan .head span::after {
     content: "/Mo";
-    font-size: 25px;
+    font-size: 20px;
     position: relative;
     right: -15px;
+}
+
+.pricing .plans .plan ul{
+    border-bottom: 1px solid var(--main-color);
+}
+
+.pricing .plans .plan ul li{
+    padding: 20px;
+    position:relative;
+}
+
+.pricing .plans .plan ul li:not(:last-child)::after{
+    content: "";
+    height: 1px;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    width: 55%;
+}
+
+.pricing .plans .plan .foot a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    border: 1px solid var(--main-color);
+    width: fit-content;
+    margin: 30px auto;
+    transition: 0.3s;
+    color: rgb(62, 62, 62);
+}
+
+.pricing .plans .plan .foot a:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+
+.pricing .contact-text {
+text-align: center;
+margin: 50px 0 20px;
+font-size: 20px;
+}
+
+.pricing .contact-link {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    text-decoration: none;
+    background-color: white;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    padding:15px 30px;
+    transition: 0.3s;
+}
+
+.pricing .contact-link:hover{
+    background-color: var(--main-color);
+    color: white;
 }
 
 /* End Pricing */

@@ -224,7 +224,7 @@ header nav .form i {
 /* Start landing */
 .landing {
     min-height: 100vh;
-    background-image: url('../img/landing.jpg');
+    background-image: url("../img/landing.jpg");
     background-size: cover;
     position: relative;
 }
@@ -907,7 +907,7 @@ header nav .form i {
 .quote {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-image: url(../img/quote.jpg);
+    background-image: url("../img/quote.jpg");
     background-size: cover;
     position: relative;
     text-align: center;
@@ -1076,7 +1076,7 @@ header nav .form i {
 .subscribe {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-image: url(../img/subscribe.jpg);
+    background-image: url("../img/subscribe.jpg");
     background-size: cover;
     position: relative;
 }
